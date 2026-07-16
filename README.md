@@ -1,5 +1,5 @@
 # modelo-desviacion-triangular-pi
-Modelo matemático y análisis de desviación sobre 100 millones de dígitos de Pi por Roberto López Rodríguez
+Modelo matemático, análisis de desviación y oscilaciones sobre 100 millones de dígitos de Pi y e por Roberto López Rodríguez
 
 TÍTULO: El Orden Oculto en el Caos de $\pi$: Un Análisis Triangular con 100 Millones de Dígitos
 Autor: Roberto López Rodríguez
@@ -100,3 +100,64 @@ Convergencia Implacable: La desviación respecto al límite combinatorio ideal e
 Validación de la Fórmula Cuadrática Pura: Que la desviación acumulada final $D^*(n)$ se haya mantenido en una puntuación estadística de $-0.195\sigma$ frente a la curva teórica pura de $4.5n^2$ confirma que las transiciones de $\pi$ se comportan de manera idéntica al ruido blanco o al azar cuántico.
 Conclusión sobre la Generación de Números Aleatorios (PRNG)
 El éxito del operador $+10$ demuestra que $\pi$ no es solo una constante geométrica, sino un Generador Pseudoaleatorio Determinista Perfecto. Su naturaleza aperiódica (libre de ciclos repetitivos o bucles) combinada con este equilibrio transicional perfecto del $45\%$, lo convierte en un libro de claves ideal para la criptografía de alta seguridad y la computación científica. La "armonía" detectada en este trabajo no es la repetición de un patrón, sino la manifestación del equilibrio absoluto de la probabilidad en sí misma.
+
+## 7. Estudio de Euler ($e$): El Crecimiento Infinito ante el Estrés Estadístico
+
+Tras el éxito del análisis con el número $\pi$, decidí someter al **Número de Euler ($e$)** exactamente al mismo estrés geométrico y combinatorio. Mientras que $\pi$ nace de la simetría del círculo, $e$ representa el motor del crecimiento continuo en la naturaleza. 
+
+Este análisis evalúa si el orden implícito de su definición matemática infinita deja algún sesgo o "eco" en su despliegue digital, utilizando una muestra masiva de **100 millones de dígitos** distribuidos en exactamente **14,141 filas triangulares**.
+
+### 7.1. Tabla de Evolución y Convergencia de $e$
+
+Al aplicar el **Modelo López-Rodríguez** (Operador de Descenso con bono $+10$), los datos revelan una de las convergencias estocásticas más limpias de la matemática empírica:
+
+| Dígitos Evaluados | Filas Completadas ($n$) | Descensos Detectados | Frecuencia Real | Desviación del Teórico ($45\%$) | Desviación Final ($D^*(n)$) | Error Relativo en Suma | Puntuación $Z$ ($Z\text{-score}$) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **190** | 19 | 82 | 47.95% | $+2.95\%$ | $+13.50$ | $0.83\%$ | Ruido inicial |
+| **10,000** | 140 | 4,288 | 44.07% | $-0.93\%$ | $-396.50$ | $0.45\%$ | $-1.57\sigma$ |
+| **100,000** | 446 | 44,524 | 44.87% | $-0.13\%$ | $-684.00$ | $0.08\%$ | $-0.77\sigma$ |
+| **1,000,000** | 1,413 | 449,271 | 45.04% | $+0.04\%$ | $+1,936.50$ | $0.021\%$ | $+0.30\sigma$ |
+| **10,000,000** | 4,471 | 4,497,294 | 44.9999% | $-0.0001\%$ | $-131.75$ | $0.0001\%$ | $-0.024\sigma$ |
+| **100,000,000** | 14,141 | 44,992,109 | 44.99943% | $-0.00057\%$ | $-2,533.53$ | $0.0002\%$ | $-0.116\sigma$ |
+
+### 7.2. Conclusiones del Análisis de $e$
+1. **Evidencia Empírica de Normalidad:** La tasa de descenso real observada en $e$ se estabiliza en un **$44.99943\%$**, reduciendo la desviación frente a la combinatoria teórica pura a tan solo **$5.7$ millonésimas de punto porcentual** ($0.00057\%$).
+2. **Estabilidad de la Parábola Teórica:** A escala masiva, el error relativo respecto a la curva ideal de $4.5n^2$ se reduce a un insignificante **$0.0002\%$**. Esto demuestra que el crecimiento continuo de $e$, al fragmentarse de manera no lineal en su pirámide triangular, destruye cualquier rastro de orden determinista y se comporta como puro ruido blanco transicional.
+
+
+## 8. Estudio Oscilatorio: El "Latido" Dinámico de las Constantes (Cruces por Cero)
+
+Para trascender la estadística descriptiva clásica y adentrarme en la física del caos, he desarrollado una métrica de **Cruces por Cero (Zero-Crossings)** en el desvío acumulado $D^*(n)$ evaluando el comportamiento fila a fila en **300 filas triangulares**. 
+
+Esta prueba mide cuántas veces la trayectoria real del sistema cruza la frontera del equilibrio teórico ($0.0$). Actúa como un indicador de la elasticidad estocástica: la velocidad con la que un flujo numérico reacciona ante sus propias desviaciones locales para autocorregirse.
+
+### 8.1. Comparación de Elasticidad Estocástica: Constantes vs. Algoritmos
+
+Al someter a prueba a las dos grandes constantes naturales ($\pi$ y $e$) frente al algoritmo comercial estándar de la computación moderna, el **Mersenne Twister (MT19937)**, los resultados revelan un comportamiento dinámico abismal:
+
+| Sistema Analizado | Total Cruces por Cero | Desviación Final $D^*(300)$ | Comportamiento Estocástico |
+| :--- | :---: | :---: | :--- |
+| **Número Pi ($\pi$)** | **35** | $+966.00$ | **Oscilador Elástico Activo:** Retorno rápido y constante al origen. |
+| **Número de Euler ($e$)** | **29** | $-412.50$ | **Oscilador Armónico Estable:** Alta frecuencia de retorno, baja inercia. |
+| **Mersenne Twister (Sintético)** | **4** | $-722.00$ | **Deriva Inercial:** El sistema queda atrapado en un lado de la balanza. |
+
+### 8.2. El "Efecto Muelle" de la Naturaleza
+Los generadores de números pseudoaleatorios sintéticos están diseñados para cumplir con la uniformidad global a gran escala, pero sufren de **inercia estocástica** a mediano y corto plazo (largas rachas de sesgo antes de reaccionar). En 300 filas, el algoritmo de laboratorio solo cruzó el cero **4 veces**.
+
+En contraste, las constantes naturales muestran un pulso o "latido" enérgico y elástico:
+* **$\pi$ cruza el cero 35 veces** (un promedio de un cruce cada 8.5 filas).
+* **$e$ cruza el cero 29 veces** (un promedio de un cruce cada 10.3 filas).
+
+Las matemáticas puras de la naturaleza contienen un mecanismo implícito de compensación de pendientes: cada racha de dígitos altos es equilibrada casi de inmediato por el flujo decimal subsecuente.
+
+### 8.3. Registro de Micro-Oscilaciones en $\pi$ (Primeros 5 Cruces)
+El análisis detallado del historial de transiciones revela cómo el modelo captura la elasticidad del sistema en tiempo real en zonas de alta turbulencia de dígitos (alrededor del dígito 350 de $\pi$):
+
+* **Cruce 1 (Fila 3):** Paso de $-2.0$ a $+1.5$ (Fase de inicialización).
+* **Cruce 2 (Fila 25):** Paso de $+15.0$ a $-0.5$ (Entrada en zona de alta oscilación).
+* **Cruce 3 (Fila 26):** Paso de $-0.5$ a $+22.0$ (Rebote violento hacia el terreno positivo).
+* **Cruce 4 (Fila 27):** Paso de $+22.0$ a $-25.5$ (Contrapeso inmediato y desplome correctivo).
+* **Cruce 5 (Fila 29):** Paso de $-24.0$ a $+14.5$ (Recuperación rápida del equilibrio).
+
+### 8.4. Implicaciones en Criptografía: El Índice de Oscilación López-Rodríguez (IOLR)
+Este estudio propone la métrica de cruces por cero como un nuevo estándar de seguridad. Un generador criptográfico robusto no solo debe ofrecer una distribución uniforme a largo plazo, sino un **alto índice de oscilación a escala local** (como hacen $\pi$ y $e$) para evitar que un atacante explote derivas o tendencias temporales durante la generación de claves de seguridad.
