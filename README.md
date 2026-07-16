@@ -1,5 +1,5 @@
 # modelo-desviacion-triangular-pi
-Modelo matemático, análisis de desviación y oscilaciones de Pi y e
+Modelo matemático, análisis de desviación y oscilaciones de Pi y e: el Índice de Oscilación López-Rodríguez (IOLR)
 
 TÍTULO: El Orden Oculto en el Caos de $\pi$: Un Análisis Triangular con 100 Millones de Dígitos extensible
 
