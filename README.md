@@ -1,7 +1,7 @@
 # modelo-desviacion-triangular-pi
-Modelo matemático, análisis de desviación y oscilaciones sobre 100 millones de dígitos de Pi y e
+Modelo matemático, análisis de desviación y oscilaciones de Pi y e
 
-TÍTULO: El Orden Oculto en el Caos de $\pi$: Un Análisis Triangular con 100 Millones de Dígitos
+TÍTULO: El Orden Oculto en el Caos de $\pi$: Un Análisis Triangular con 100 Millones de Dígitos extensible
 
 **Autor:** Roberto López Rodríguez  
 **Ubicación:** Valladolid, España  
